@@ -11,7 +11,10 @@
 - **Error Reporting**: Logs warnings or errors in the Unity Editor.
 
 ## Usage
-- Copy the `AnimationEventHandler.cs` script inside your Unity project.
+- Copy the `AnimationEventHandler.cs` script inside your Unity project. Then make sure to call `HandleAnimationEvent()` in an Animation Event.
+
+![Add the script](images/screenshot_0.png)
+![Call HandleAnimationEvent](images/screenshot_1.png)
 
 > [!WARNING]\
 > This script only lets you subscribe to each animation event **ONCE**. Subscribing twice can cause problems in your game.
